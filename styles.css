@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: hsl(185, 75%, 39%);
+  position: relative;
+  font-family: "Kumbh-Sans";
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.main {
+  display: inline-block;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.top-img {
+  position: absolute;
+  width: 80%;
+  right: 50%;
+  bottom: 40%;
+}
+
+.bottom-img {
+  position: absolute;
+  width: 80%;
+  left: 40%;
+  top: 40%;
+}
+
+.custom {
+  width: 350px;
+  margin: 150px auto;
+  border: none;
+  z-index: 1;
+  position: relative;
+}
+
+.victor {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 100%;
+}
+
+.card-footer {
+  padding: 1rem;
+}
